@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(221, 248, 179);
+            margin: 0px;
+        }
+
+        header{
+            background-color: aqua;
+            padding: 40px;
+            width: auto;
+            margin: 0px auto 100px auto;
+        }
+
+        nav{
+            background-color: lightgray;
+            padding: 3px;
+            box-shadow: 8px 4px 5px -2px rgba(0, 0, 0, 0.548);            
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            color: greenyellow;
+        }
+
+        main{
+            background-color: burlywood;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px 0px;
+            box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.473);
+        }
+
+        article{
+            background-color: lightgray;
+        }
+
+        article > aside {
+            background-color: azure;
+        }
+
+        footer{
+            background-color: rgb(178, 111, 240);
+            color: black;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1></h1>
+        <nav>
+            <a href="home">Home</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="contato">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos"></section>
+        <section>
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum laboriosam, quis eaque obcaecati quam aliquam. Asperiores nihil nesciunt suscipit officia? Ad, a? Dolores quasi maxime earum illum expedita nihil provident!</p>
+                <aside>
+                    <p>Artigo escrito por Josè da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>é verdade, quer dizer as vezes não.</p>
+    </footer>
+
+</body>
+</html>

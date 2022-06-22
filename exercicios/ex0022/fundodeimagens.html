@@ -7,7 +7,7 @@
     <title>Teste de imagens de fundo</title>
     <style>
         .quadrado {
-            display: inline-block;
+            
             border: 1px solid black;
             border-radius: 12px;
             background-color: lightgrey;
@@ -16,14 +16,18 @@
         }
 
         body {
+            height: 98vh;
             background-image: url('imagens/wallpaper001.jpg');
+            
         }
 
         div#q1 {
             background-color: skyblue;
+            background-position: left bottom;
         }
         div#q2 {
             background-image: linear-gradient(to bottom, blue, red);
+            background-position: top right;
         }
         div#q3 {
             background-image: url('imagens/pattern003.png');
